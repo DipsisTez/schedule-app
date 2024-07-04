@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2b1055, #7597de);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #0056b3;
+}
+
+h2 {
+    color: #0056b3;
+    padding: 4px;
+}
+
+h4 {
+    color: #ff6347; /* Tomato цвет */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h5 {
+    text-align: center;
+    color: #32cd32; /* LimeGreen цвет */
+    font-size: 24px;
+    font-weight: bold;
+    background: #e0f7fa; /* Светло-голубой фон */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 10px 0;
+}
+
+
+h5 {
+    text-align: center;
+    font-size: 24px; /* Увеличен размер шрифта */
+    font-weight: bold;
+    background: #f0f0f0; /* Нейтральный светлый фон */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0; /* Отступы сверху и снизу */
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #2b1055, #d896ff); /* Градиент от фиолетового к розовому */
+    -webkit-background-clip: text;
+}
+
+        .schedule {
+            margin: 20px 0;
+        }
+        .schedule h3 {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px;
+            margin: 0 -20px;
+            border-radius: 10px 10px 0 0;
+        }
+        .schedule ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .schedule ul li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .schedule ul li:last-child {
+            border-bottom: none;
+        }
+        .time {
+            color: #0056b3;
+            font-weight: bold;
+            min-width: 80px;
+            text-align: right;
+        }
+        .activity {
+            flex-grow: 1;
+            padding-left: 10px;
+        }
+        .activity-icon {
+            margin-right: 10px;
+        }
+        .highlight {
+            background-color: #ffeb3b;
+        }
+        .active {
+            display: block;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #0056b3;
+            color: #fff;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+        .tab:hover, .tab.active {
+            background-color: #003d80;
+        }
+                .stat-container {
+                        padding: 12px;
+                        border: 1px solid black;
+                        border-radius: 5px;
+                }
+
+.stat-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    height: 20px;
+    background: linear-gradient(to right, #2b1055, #7597de);
+    width: 0%;
+}
